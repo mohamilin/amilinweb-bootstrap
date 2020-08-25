@@ -11,4 +11,9 @@
 
 # STEP 2 - HAPPY CODING !!! 
     # CONTENTS OF HTML
-    -
+        - Buat link untuk css, bootstrap, dan javascirp link untuk botstrap ada 2 yaitu css dan js (see documentation) position of link and top title in tag <head>.
+        - We used bootstrap version 4.5x
+        - Dalam body, saya bagi menjadi 3 bagian besar yaitu <header>, <main> dan <footer>. 
+
+    #<header>
+

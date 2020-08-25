@@ -1,0 +1,134 @@
+/* Style Golbal */
+body {
+  font-family: "Segoe UI";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+// Style section
+// color secti0n
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+
+  .bi {
+    margin-right: 10px;
+  }
+}
+
+// white section
+.white-section {
+    background-color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+
+}
+
+#title {
+  background-color: #6320b9de;
+  color: #fff;
+  text-align: left;
+}
+
+.img-row {
+  height: 220px;
+  width: 100%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+// Navigation Bar
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 10px;
+  }
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white !important;
+  font-family: "Montserrat-Light";
+}
+
+.nav-link:hover {
+  color: yellow !important;
+}
+// untuk Button {
+.contact-button {
+  margin: 5% 3% 5% 0;
+
+}
+
+.typed {
+  color: rgb(105, 241, 223);
+}
+// Strengh section
+#strengh {
+  position: relative;
+}
+
+.strengh-title {
+  font-size: 1.5rem;
+}
+
+.strengh-box {
+  padding: 4.5%;
+}
+
+.box-row {
+  text-align: center;
+}
+
+.icon {
+  color: #810c33;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(45, 11, 197);
+}
+
+// Section qoutes
+
+#quotes {
+  background-color: #9f3ab3e7 ;
+}
+
+.text-quotes {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/*
+.img-quotes {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+*/
+
+.box-carousel {
+  text-align: center;
+}

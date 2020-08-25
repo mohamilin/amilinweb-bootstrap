@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+
     <!-- BOOTSTRAP & CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
     <link
@@ -11,6 +17,16 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-5.14.0-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-5.14.0-web/js/all.js"
     />
 
     <!-- Scripts Bootstrap -->
@@ -30,24 +46,181 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- script animasi -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
     <!-- Title -->
     <title>Amilin's Web</title>
   </head>
 
   <body>
     <header>
-        <section>
-            <div>
-                
+      <section class="color-section" id="title">
+        <div class="container-fluid">
+          <!-- start navbar -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" style="font-size: 30px !important;" href="">
+             <span>🖥 </span> Amilin's
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo02"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <!-- pakai class ml-auto agar berada di kiri -->
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cta">Download</a>
+                </li>
+              </ul>
             </div>
-        </section>
+          </nav>
+          <!-- end nav -->
+
+          <!-- start title -->
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="title-row">Happy Coding !!!</h1>
+              <!-- class="btn btn-light btn-lg contact-button" -->
+              <button
+                type="button"
+                class="btn btn-light btn-outline-danger contact-button"
+              >
+                Contact Us
+              </button>
+            </div>
+            <div class="col-lg-6">
+              <!-- <img class="img-row" src="./assets/undraw_developer_activity_bv83.svg" alt="" srcset="" /> -->
+              <!-- <img
+                class="img-row"
+                src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                alt=""
+                srcset=""
+              /> -->
+              <h1>I'm a <span id="typed" class="typed"></span></h1>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
+      <section class="white-section" id="strengh">
+        <div class="container-fluid">
+          <div class="row box-row">
+            <div class="strengh-box col-lg-4">
+              <i class="icon fas fa-battery-full fa-4x"></i>
+              <!-- <i class="icon fas fa-check-circle fa-4x"></i> -->
+              <h3 class="strengh-title">Power Full</h3>
+              <p>Full Service and Maintenence</p>
+            </div>
+            <div class="strengh-box col-lg-4">
+              <i class="icon far fa-thumbs-up fa-4x"></i>
+              <!-- <i class="icon fas fa-check-circle fa-4x"></i> -->
+              <h3 class="strengh-title">Exclusive Product</h3>
+              <p>Build Your Product with Great Quality</p>
+            </div>
+            <div class="strengh-box col-lg-4">
+              <i class="icon far fa-clock fa-4x"></i>
+              <!-- <i class="icon fas fa-check-circle fa-4x"></i> -->
+              <h3 class="strengh-title">On Time.</h3>
+              <p>Not Wasting Time.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Section for quotes -->
+      <section class="color-section" id="quotes">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner box-carousel">
+            <div class="carousel-item active container-fluid">
+              <!-- <img
+                class="img-quotes"
+                src="./assets/undraw_developer_activity_bv83.svg"
+                class="d-block w-100"
+                alt="..."
+              /> -->
+              <h2 class="text-quotes">
+                No two things have been combined together better than knowladge and patience
+              </h2>
+              <em>Sayyiduna Muhammad SAW</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <!-- <img
+                class="img-quotes"
+                src="./assets/undraw_developer_activity_bv83.svg"
+                class="d-block w-100"
+                alt="..."
+              /> -->
+              <h2 class="text-quotes">
+                The most complete gift of god is a life based on knowladge
+              </h2>
+              <em>Imam Ali R.A</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <!-- <img
+                class="img-quotes"
+                src="./assets/undraw_developer_activity_bv83.svg"
+                class="d-block w-100"
+                alt="..."
+              /> -->
+              <h2 class="text-quotes">
+                Everybody is a genius but if you judge a fish by its ability ro climb a tree, it will live its whole life believing that is is stupid
+              </h2>
+              <em>Albert Einstein</em>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <!-- end qoutes -->
+
+      <!-- link -->
+      <section class="color-section" id="link">
+        <img class="link-logo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="link-logo" src="images/tnw.png" alt="tnw-logo">
+        <img class="link-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <img class="link-logo" src="images/mashable.png" alt="mashable-logo">    
+      </section>
     </main>
     <footer>
 
     </footer>
 
+ <script src="./js/scripts.js"></script>
   </body>
 </html>

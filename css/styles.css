@@ -31,7 +31,7 @@ p {
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 6% 15%;
 }
 
 #title {
@@ -79,14 +79,11 @@ p {
 
 #strengh {
   position: relative;
+  height: 300px;
 }
 
 .strengh-title {
   font-size: 1.5rem;
-}
-
-.strengh-box {
-  padding: 4.5%;
 }
 
 .box-row {
@@ -104,10 +101,11 @@ p {
 
 #quotes {
   background-color: #9f3ab3e7;
+  height: 200px;
 }
 
 .text-quotes {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1;
 }
 
@@ -120,5 +118,47 @@ p {
 */
 .box-carousel {
   text-align: center;
+}
+
+#link {
+  background-color: white;
+  padding: 0 3%;
+  text-align: center;
+}
+
+.link-logo {
+  width: 3%;
+  margin: 20px 20px;
+}
+
+.stories-section {
+  margin-top: 40px;
+}
+
+#stories {
+  text-align: center;
+}
+
+.container-stories {
+  margin: 50px 70px;
+}
+
+.title-stories {
+  margin-bottom: 50px;
+}
+
+.strengh-box > .btn {
+  font-family: 'Ubuntu';
+  width: 150px;
+}
+
+.modal-body p {
+  color: black;
+  text-align: justify;
+  line-height: 35px;
+}
+
+#link {
+  background-color: #7e53b859;
 }
 /*# sourceMappingURL=styles.css.map */

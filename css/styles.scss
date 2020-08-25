@@ -87,7 +87,7 @@ p {
 // Strengh section
 #strengh {
   position: relative;
-  height: 300px;
+  //height: 300px;
 }
 
 .strengh-title {
@@ -111,8 +111,9 @@ p {
 // Section qoutes
 
 #quotes {
+  position: relative;
   background-color: #9f3ab3e7 ;
-  height: 200px;
+  //height: 200px;
 }
 
 .text-quotes {
@@ -129,6 +130,7 @@ p {
 */
 
 .box-carousel {
+  position: relative;
   text-align: center;
 }
 
@@ -178,3 +180,17 @@ p {
 #link {
   background-color: #7e53b859;
 }
+
+@media(max-width: 1000px) {
+  .strengh-box > .btn {
+    margin-bottom: 15px;
+  }
+}
+
+
+@media(max-width: 675px) {
+  .strengh-box > .btn {
+    margin-bottom: 15px;
+  }
+}
+

@@ -7,7 +7,7 @@
     - create file index.html, folder css and js. 
         - file in css folder : styles.scss 
         - file in js folder  : scripts.js
-    - file with type scss can be styles.css use extension "Watch Sass"
+    - file with type scss can be styles.css use extension "Watch Sass".
 
 # STEP 2 - HAPPY CODING !!! 
     # CONTENTS OF HTML
@@ -15,5 +15,8 @@
         - We used bootstrap version 4.5x
         - Dalam body, saya bagi menjadi 3 bagian besar yaitu <header>, <main> dan <footer>. 
 
-    #<header>
+    # <header>
+        - Dalam <header> saya akan meberikan <section> dengan class : color-section da id : title, jadi terdapat class yag bukan bawaan dari bootsrtap. 
+        Hal ini dilakukan agar nanti saya bisa memodifikasi dengan sass. 
+        - 
 
